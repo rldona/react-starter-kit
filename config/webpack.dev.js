@@ -8,15 +8,16 @@ const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin'
 /** @type {import('webpack').Configuration} */
 const devConfig = {
   mode: 'development',
+  /** Workaround fot the bugfix found in 'webpack-dev-server' version <= 3.11.2 */
+  /** Remove when they release a new release */
+  target: 'web',
   devServer: {
     port: 8080,
     contentBase: path.join(__dirname, 'dist'),
     open: true,
     hot: true,
   },
-  /** Workaround fot the bugfix found in 'webpack-dev-server' version <= 3.11.2 */
-  /** Remove when they release a new release */
-  target: 'web',
+  devtool: 'eval-source-map',
   plugins: [new HotModuleReplacementPlugin(), new ReactRefreshWebpackPlugin()],
 };
 

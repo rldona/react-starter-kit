@@ -12,11 +12,17 @@ module.exports = {
   module: {
     rules: [
       {
+        use: 'babel-loader',
         test: /.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
+      },
+      {
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /.(css|sass|scss)$/,
+      },
+      {
+        type: 'asset',
+        test: /\.(png|svg|jpg|jpge|gif)$/i,
       },
     ],
   },

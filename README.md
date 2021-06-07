@@ -2,12 +2,14 @@
 
 - VSCode Config
 - Webpack 5
-- Babel
+- Babel 7
 - React 17
 - Typescript 4
+- SASS
 - ESLint
 - Prettier
 - React Fast Refresh
+- Source Maps
 
 ## TODO list
 
