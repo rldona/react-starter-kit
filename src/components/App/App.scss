@@ -1,4 +1,13 @@
 .app {
-  background-color: bisque;
+  background-color: aliceblue;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  h1 {
+    font-family: monospace;
+    font-size: 2rem;
+    color: lightseagreen;
+  }
 }
