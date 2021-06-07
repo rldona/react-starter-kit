@@ -4,7 +4,7 @@
   "description": "React Starter Kit",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --config config/webpack.common.js"
   },
   "repository": {
     "type": "git",

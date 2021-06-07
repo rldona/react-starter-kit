@@ -22,15 +22,15 @@ module.exports = {
       },
     ]
   },
+  output: {
+    path: path.resolve(__dirname, '../dist'),
+    filename: '[name].[contenthash].bundle.js',
+    publicPath: ''
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, '/public/index.html')
+      template: path.join(__dirname, '../public/index.html')
     })
-  ],
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[contenthash].bundle.js',
-    publicPath: ''
-  }
+  ]
 }
