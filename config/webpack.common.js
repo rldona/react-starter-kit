@@ -1,5 +1,4 @@
 const path = require('path');
-
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -7,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/index.tsx',
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".json"]
+    extensions: ['.ts', '.tsx', '.js', '.json'],
   },
   mode: 'production',
   devtool: 'source-map',
@@ -17,20 +16,20 @@ module.exports = {
         test: /.(ts|tsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader'
-        }
+          loader: 'babel-loader',
+        },
       },
-    ]
+    ],
   },
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: '[name].[contenthash].bundle.js',
-    publicPath: ''
+    publicPath: '',
   },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: path.join(__dirname, '../public/index.html')
-    })
-  ]
-}
+      template: path.join(__dirname, '../public/index.html'),
+    }),
+  ],
+};
