@@ -11,19 +11,19 @@
 
 ## TODO list
 
-- [OK] VSCode Config
-- [OK] React
-- [OK] Webpack 5
-- [OK] React 17
-- [~] Hooks
-- [OK] React Fast Refresh
-- [OK] TypeScript 4
+- [x] VSCode Config
+- [x] React
+- [x] Webpack 5
+- [x] React 17
+- [ ] Hooks
+- [x] React Fast Refresh
+- [x] TypeScript 4
 - [ ] React Navigation
 - [ ] Redux
 - [ ] Hooks
 - [ ] GraphQL
-- [OK] ESLint
-- [OK] Prettier
+- [x] ESLint
+- [x] Prettier
 - [ ] Storybook
 - [ ] Jest
 - [ ] Testing Library React
