@@ -12,6 +12,10 @@
 - React Fast Refresh
 - Source Maps
 
+## Preview
+
+https://flamboyant-meitner-a8cd5c.netlify.app
+
 ## TODO list
 
 - [x] VSCode Config
