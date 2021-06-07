@@ -1,3 +1,4 @@
+![alt text](./src/assets/github/react-starter-kit-logo.png "Home preview")
 # React Starter Kit
 
 - VSCode Config

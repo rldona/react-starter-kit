@@ -1,13 +1,14 @@
 .app {
-  background-color: aliceblue;
-  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100%;
+  color: black;
   h1 {
     font-family: monospace;
     font-size: 2rem;
     color: lightseagreen;
+    margin-top: 20px;
   }
 }
