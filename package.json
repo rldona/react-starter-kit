@@ -4,7 +4,7 @@
   "description": "React Starter Kit",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --config config/webpack.common.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,12 @@
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "html-webpack-plugin": "^5.3.1",
+    "typescript": "^4.3.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   },
