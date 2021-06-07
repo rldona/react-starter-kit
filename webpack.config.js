@@ -5,29 +5,32 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 /** @type {import('webpack').Configuration} */
 module.exports = {
-  entry: './src/index.js',
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[contenthash].js',
-    publicPath: ''
+  entry: './src/index.tsx',
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", ".json"]
   },
   mode: 'production',
+  devtool: 'source-map',
   module: {
     rules: [
       {
-        use: 'babel-loader',
-        test: /.(js|jsx)$/,
-        exclude: /node_modules/
+        test: /.(ts|tsx)$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
       },
     ]
-  },
-  resolve: {
-    extensions: [".js", ".jsx", ".json"]
   },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './public/index.html'
+      template: path.join(__dirname, '/public/index.html')
     })
-  ]
+  ],
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].[contenthash].bundle.js',
+    publicPath: ''
+  }
 }

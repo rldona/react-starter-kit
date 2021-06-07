@@ -5,15 +5,16 @@ React Starter Kit
 Webpack
 Babel
 React
+Typescript
 
 ## TODO
 
 [ ] VSCode Config
-[ ] React
-  [ ] Webpack 5
-[ ] React 17
-	[ ] Hooks
-[ ] TypeScript 4
+[OK] React
+  [OK] Webpack 5
+[OK] React 17
+	[~] Hooks
+[OK] TypeScript 4
 [ ] Redux
 	[ ] Hooks
 [ ] GraphQL
