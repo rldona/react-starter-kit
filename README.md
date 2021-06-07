@@ -1,12 +1,13 @@
 # React Starter Kit
 
-VSCode Config
-Webpack
-Babel
-React
-Typescript
-ESLint
-Prettier
+- VSCode Config
+- Webpack
+- Babel
+- React
+- Typescript
+- ESLint
+- Prettier
+- React Fast Refresh
 
 ## TODO
 
@@ -15,6 +16,7 @@ Prettier
   [OK] Webpack 5
 [OK] React 17
 	[~] Hooks
+[OK] React Fast Refresh
 [OK] TypeScript 4
 [ ] React Navigation
 [ ] Redux
