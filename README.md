@@ -2,6 +2,10 @@
 
 React Starter Kit
 
+Webpack
+Babel
+React
+
 ## TODO
 
 [ ] VSCode Config
