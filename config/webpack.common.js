@@ -8,7 +8,6 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
   },
-  mode: 'production',
   devtool: 'source-map',
   module: {
     rules: [
