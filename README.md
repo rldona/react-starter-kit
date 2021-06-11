@@ -10,7 +10,6 @@
 - ESLint
 - Prettier
 - React Fast Refresh
-- Source Maps
 
 ## Preview 👀
 
@@ -22,20 +21,18 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [x] React
 - [x] Webpack 5
 - [x] React 17
-- [ ] Hooks
 - [x] React Fast Refresh
 - [x] TypeScript 4
+- [x] SASS
 - [ ] React Navigation
 - [ ] Redux
-- [ ] Hooks
-- [ ] GraphQL
 - [x] ESLint
 - [x] Prettier
 - [ ] Storybook
 - [ ] Jest
 - [ ] Testing Library React
 - [ ] Cypress.js
-- [ ] Docker
+- [ ] Container with Docker
 
 ## See also 👌
 
