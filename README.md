@@ -1,5 +1,5 @@
 ![alt text](./src/assets/github/react-starter-kit-logo.png "Home preview")
-# React Starter Kit
+# React Starter Kit 🚀 
 
 - VSCode Config
 - Webpack 5
@@ -12,11 +12,11 @@
 - React Fast Refresh
 - Source Maps
 
-## Preview
+## Preview 👀
 
 https://flamboyant-meitner-a8cd5c.netlify.app
 
-## TODO list
+## TODO list 🤓
 
 - [x] VSCode Config
 - [x] React
@@ -37,7 +37,7 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [ ] Cypress.js
 - [ ] Docker
 
-## See also
+## See also 👌
 
 - https://medium.com/@elisealcala/empieza-un-nuevo-proyecto-react-f3fea6254d1
 - https://www.youtube.com/watch?v=97Ajv8-NRVY
