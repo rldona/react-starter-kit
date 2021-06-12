@@ -10,5 +10,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "javascript.suggestionActions.enabled": false
+  "javascript.suggestionActions.enabled": false,
+  "favorites.resources": []
 }

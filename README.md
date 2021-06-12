@@ -1,5 +1,6 @@
-![alt text](./src/assets/github/react-starter-kit-logo.png "Home preview")
-# React Starter Kit 🚀 
+![alt text](./src/assets/github/react-starter-kit-logo.png 'Home preview')
+
+# React Starter Kit 🚀
 
 - VSCode Config
 - Webpack 5
@@ -29,8 +30,8 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [x] ESLint
 - [x] Prettier
 - [ ] Storybook
-- [ ] Jest
-- [ ] Testing Library React
+- [x] Jest
+- [x] Testing Library React
 - [ ] Cypress.js
 - [ ] Container with Docker
 
