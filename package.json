@@ -57,17 +57,5 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "browserslist": "> 0.25%, not dead, not ie 11",
-  "jest": {
-    "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "(/tests/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "json"
-    ]
-  }
+  "browserslist": "> 0.25%, not dead, not ie 11"
 }
