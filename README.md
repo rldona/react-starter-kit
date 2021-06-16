@@ -25,8 +25,7 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [x] React Fast Refresh
 - [x] TypeScript 4
 - [x] SASS
-- [ ] React Navigation
-- [ ] Redux
+- [x] React Router
 - [x] ESLint
 - [x] Prettier
 - [ ] Storybook
