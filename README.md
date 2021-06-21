@@ -28,7 +28,7 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [x] React Router
 - [x] ESLint
 - [x] Prettier
-- [ ] Storybook
+- [x] Storybook
 - [x] Jest
 - [x] Testing Library React
 - [ ] Cypress.js
