@@ -10,6 +10,7 @@ export default function App(): JSX.Element {
         <Switch>
           <Route exact path="/">
             <StarterLogo />
+            <h1>React Starter Kit</h1>
           </Route>
         </Switch>
       </Router>
