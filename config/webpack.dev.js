@@ -1,8 +1,8 @@
 const path = require('path');
-const { merge } = require('webpack-merge');
+const {merge} = require('webpack-merge');
 const common = require('./webpack.common');
 
-const { HotModuleReplacementPlugin } = require('webpack');
+const {HotModuleReplacementPlugin} = require('webpack');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 /** @type {import('webpack').Configuration} */
