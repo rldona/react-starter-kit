@@ -1,5 +1,5 @@
 const path = require('path');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 /** @type {import('webpack').Configuration} */
@@ -29,7 +29,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: '[name].[contenthash].bundle.js',
-    publicPath: '',
+    publicPath: '/',
   },
   plugins: [
     new CleanWebpackPlugin(),
