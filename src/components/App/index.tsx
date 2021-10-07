@@ -1,6 +1,7 @@
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import {StarterLogo} from '../StarterLogo';
+
 import './App.scss';
 
 export default function App(): JSX.Element {
