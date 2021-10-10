@@ -13,5 +13,5 @@ test('Renders "react starter kit" title', () => {
 
   const title = screen.queryByText(/react starter kit/i);
 
-  expect(title).toBeDefined();
+  expect(title).toBeInTheDocument();
 });
