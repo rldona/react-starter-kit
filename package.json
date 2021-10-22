@@ -35,6 +35,8 @@
     "@storybook/react": "^6.2.9",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.9",
     "@types/react-dom": "^17.0.6",
@@ -48,8 +50,10 @@
     "css-loader": "^5.2.6",
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest-dom": "^3.9.2",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-testing-library": "^4.12.4",
     "html-webpack-plugin": "^5.3.1",
     "jest": "^27.0.4",
     "prettier": "2.3.1",
@@ -66,8 +70,10 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "axios": "^0.23.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-query": "^3.27.0",
     "react-router-dom": "^5.2.0"
   },
   "browserslist": "> 0.25%, not dead, not ie 11"
