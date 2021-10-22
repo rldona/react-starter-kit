@@ -22,6 +22,8 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [x] React
 - [x] Webpack 5
 - [x] React 17
+- [ ] Context/Reducer
+- [ ] React Query
 - [x] React Fast Refresh
 - [x] TypeScript 4
 - [x] SASS
@@ -31,10 +33,6 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [x] Storybook
 - [x] Jest
 - [x] Testing Library React
+- [ ] MSW (Mock Service Worker)
 - [ ] Cypress.js
 - [ ] Container with Docker
-
-## See also 👌
-
-- https://medium.com/@elisealcala/empieza-un-nuevo-proyecto-react-f3fea6254d1
-- https://www.youtube.com/watch?v=97Ajv8-NRVY
