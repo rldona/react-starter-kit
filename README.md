@@ -23,7 +23,6 @@ https://flamboyant-meitner-a8cd5c.netlify.app
 - [x] Webpack 5
 - [x] React 17
 - [ ] Context/Reducer
-- [ ] React Query
 - [x] React Fast Refresh
 - [x] TypeScript 4
 - [x] SASS
