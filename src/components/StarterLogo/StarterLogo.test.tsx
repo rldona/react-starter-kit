@@ -1,9 +1,9 @@
-import {render} from '@testing-library/react';
+import {render, screen} from '@testing-library/react';
 import {StarterLogo} from '.';
 
 describe('StarterLogo', () => {
   it('should render', () => {
-    const {getByTestId} = render(<StarterLogo />);
-    expect(getByTestId('starter-logo')).toBeInTheDocument();
+    render(<StarterLogo />);
+    expect(screen.getByRole('img')).toBeInTheDocument();
   });
 });

@@ -1,37 +1,37 @@
-![alt text](./src/assets/github/react-starter-kit-logo.png 'Home preview')
-
 # React Starter Kit 🚀
 
-- VSCode Config
-- Webpack 5
-- Babel 7
-- React 17
-- Typescript 4
-- SASS
+![alt text](./src/assets/github/react-starter-kit-logo.png)
+
+## Features
+
+- React 18
+- TypeScript 4
+- React Router 6
+- Jest
+- Testing Library React
+- Mock Service Worker
+- Cypress 10
 - ESLint
 - Prettier
-- React Fast Refresh
+- Storybook 6
+- Webpack 5
+- VSCode Config
 
 ## Preview 👀
 
-https://flamboyant-meitner-a8cd5c.netlify.app
+`https://flamboyant-meitner-a8cd5c.netlify.app`
 
 ## TODO list 🤓
 
-- [x] VSCode Config
-- [x] React
-- [x] Webpack 5
-- [x] React 17
-- [ ] Context/Reducer
-- [x] React Fast Refresh
+- [x] React 18
 - [x] TypeScript 4
-- [x] SASS
-- [x] React Router
-- [x] ESLint
-- [x] Prettier
-- [x] Storybook
+- [x] React Router 6
 - [x] Jest
 - [x] Testing Library React
-- [ ] MSW (Mock Service Worker)
-- [ ] Cypress.js
-- [ ] Container with Docker
+- [x] Mock Service Worker
+- [x] Cypress 10
+- [x] ESLint
+- [x] Prettier
+- [x] Storybook 6
+- [x] Webpack 5
+- [x] VSCode Config

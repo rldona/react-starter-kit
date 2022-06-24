@@ -1,6 +1,16 @@
-import ReactDOM from 'react-dom';
+import {createRoot} from 'react-dom/client';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-import './assets/styles/main.scss';
 import App from './components/App';
+import './assets/styles/main.scss';
 
-ReactDOM.render(<App />, document.getElementById('root') as HTMLElement);
+const container = document.getElementById('app');
+const root = createRoot(container!);
+
+root.render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+    </Routes>
+  </BrowserRouter>,
+);
