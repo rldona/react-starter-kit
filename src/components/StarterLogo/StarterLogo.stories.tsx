@@ -2,4 +2,6 @@ import {storiesOf} from '@storybook/react';
 
 import {StarterLogo} from '.';
 
-storiesOf('StarterLogo', module).add('without props 2', () => <StarterLogo />);
+// Feature B
+
+storiesOf('StarterLogo', module).add('Without props', () => <StarterLogo />);
