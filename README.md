@@ -14,7 +14,6 @@
 - ESLint
 - Prettier
 - Storybook 6
-- Webpack 5
 - VSCode Config
 
 ## Preview 👀
@@ -33,5 +32,4 @@
 - [x] ESLint
 - [x] Prettier
 - [x] Storybook 6
-- [x] Webpack 5
 - [x] VSCode Config
